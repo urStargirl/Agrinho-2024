@@ -1,0 +1,42 @@
+.slideshow-container {
+  position: sticky;
+top: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.slide {
+  display: inline;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.prev, .next {
+  position: sticky;
+top: 20px;
+  width: auto;
+  margin-top: -22px;
+  padding: 12px;
+  color: white;
+  font-size: 50%;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 50%;
+
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
